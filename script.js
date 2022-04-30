@@ -17,3 +17,15 @@ for (var i = 0; i < 9; i++) {
     console.log(i);
     document.getElementById(i).classList.add("future");
   }
+
+  if(localStorage.getItem(i)){
+    document.getElementById(i).value = localStorage.getItem(i);
+}
+
+saveBtn[i].addEventListener("click",function(){
+  var id = this.getAttribute("data-id");
+  var text = document.getElementById(id).value;
+   localStorage.setItem(id,text);
+  console.log(text);
+})
+}
