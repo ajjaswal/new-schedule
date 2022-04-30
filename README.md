@@ -1,47 +1,17 @@
-# 05 Third-Party APIs: Work Day Scheduler
+# new-schedule
 
-Create a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+## Description
+   I used JavaScript and HTML to create a basic scheduling tool. The date is displayed at the top, the time is color coded by past, present and future, and text can be input to plan your day ahead. I used localStorage to save the text inputs so when the page is refreshed or revisited, the schedule is the same.  
 
-The starter code uses the [Moment.js](https://momentjs.com/) library to work with date and time, but you're free to use a different JavaScript solution to handle this functionality because Moment.js is considered a "legacy" product. Learn more about these other solutions in the [Moment.js project status page.](https://momentjs.com/docs/#/-project-status/).
+#  Deployed Page URL
 
-## User Story
+https://ajjaswal.github.io/new-schedule/
 
-```
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+#  Github Repository Link
+ 
+  https://github.com/ajjaswal/new-schedule
 
-## Acceptance Criteria
+# Screenshot
 
-```
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
-
-The following animation demonstrates the application functionality:
-
-![Work Day Scheduler app with color-coded time slots shows a new event being typed in the 5PM slot.](./Assets/05-third-party-apis-homework-demo.gif)
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
----
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+![pageSS](https://user-images.githubusercontent.com/102101481/166126764-a7d677e6-7606-4234-9f74-a26389cc8362.png)
 
